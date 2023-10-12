@@ -1,8 +1,20 @@
 {
-    "presentacion":[],
-    "about":[],
-    "resumen":[],
-    "repos":[],
-    "contacto":[]
+    "portafolio":[
+        {
+            
+            "nombre":"pepe",
+            "apellido":"si",
+            "desarrollador":"fullstack",
+            "social":"url",
+            "foto":"url",
+            "about":"",
+            "fecha":"",
+            "email":"",
+            "tel":"",
+            "direccion":"",
+            "experiencia":"",
+            "skills":""
+        }
+    ]
 
 }
