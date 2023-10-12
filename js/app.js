@@ -1,4 +1,4 @@
-import { getAll, getOne, post, deleteOne, delet } from "../storage/portafolio.js"
+import { getAll, getOne, post, deleteOne, delet, PUT } from "../storage/portafolio.js"
 
 const button = document.querySelector("button");
 

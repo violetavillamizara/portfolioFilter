@@ -52,6 +52,12 @@ export const delet = () => {
 };
 
 
-export const PUT=async()=>{
-    
+export const PUT=async({id, obj = {}} = {})=>{
+    // let data = await getOne({ id, uri, endpoint })
+    // obj = {...data, ...obj}
+    // Object.entries(tabla).forEach((e) => 
+    // config.method = "PUT";
+    // config.body = JSON.stringify(body);
+    // let res = await fetch(`${uri}${endpoint}${id}`, config);
+    // if (res.status === 200 || res.status === 404) return { status: res.status, message: res.statusText }
 }
