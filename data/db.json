@@ -1,20 +1,19 @@
 {
-    "portafolio":[
-        {
-            
-            "nombre":"pepe",
-            "apellido":"si",
-            "desarrollador":"fullstack",
-            "social":"url",
-            "foto":"url",
-            "about":"",
-            "fecha":"",
-            "email":"",
-            "tel":"",
-            "direccion":"",
-            "experiencia":"",
-            "skills":""
-        }
-    ]
-
+  "portafolio": [
+    {
+      "id": 1,
+      "nombre": "pepe",
+      "apellido": "si",
+      "desarrollador": "fullstack",
+      "social": "url",
+      "foto": "url",
+      "about": "",
+      "fecha": "",
+      "email": "",
+      "tel": "",
+      "direccion": "",
+      "experiencia": "",
+      "skills": ""
+    }
+  ]
 }

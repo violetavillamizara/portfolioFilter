@@ -1,5 +1,7 @@
-export default env={
+const env={
     ssl: "http://",
-    hostName: "127.0.0.9",
+    hostName: "localhost",
     port:"5020"
 }
+
+export default env;
