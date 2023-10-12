@@ -1,0 +1,106 @@
+:root {
+    --tableWidth:  420px;
+    --headerFontSize:13px;
+    --headerFontColor: #5c1d63;
+    --headerFontWeight: 0;
+    --headerFontBGColor: #ffffff;
+    --headerTextAlign: center;
+    --bodyTextAlign: center;
+    --headerBorderColor:hsl(0 0% 100%);
+    --headerBCVar:0px;
+    --bodyFontSize:14px;
+    --evenRowsColor: hsl(0 0% 100%);
+    --oddRowsColor: hsl(0 0% 100%);
+    --evenRowsBGColor: #0000001a;
+    --oddRowsBGColor: #323232;
+    --cellPaddingHVar: 63px;
+    --cellPaddingVVar: 15px;
+    --rowsBorderColor: hsl(0 0% 100%);
+    --rowsBorderWidth: 2px;
+    --text-color: hsl(0 0% 100%);
+    }
+
+    table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    width: 100%;
+    background: #323232;
+    width: var(--tableWidth);
+    }
+    
+    td {
+    font-size: var(--bodyFontSize);
+    }
+    
+    tbody tr {
+    border-bottom: 1px solid #dddddd;
+    min-height: 100px;
+    text-align: var(--bodyTextAlign);
+    border: none;
+    }
+    
+    th,
+    td,
+    caption {
+    padding-left: var(--cellPaddingHVar); 
+    padding-right: var(--cellPaddingHVar);
+    padding-top: var(--cellPaddingVVar);
+    padding-bottom: var(--cellPaddingVVar);
+    }
+
+
+    
+    caption {
+    text-align: left;
+    background-color: hsl(0 0% 0%);
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffffcc;
+    font-family: system-ui;
+    }
+    
+    tbody tr:nth-child(even) {
+    color: var(--evenRowsColor);
+    background-color: var(--evenRowsBGColor);
+    }
+    
+    tbody tr:nth-child(odd) {
+    color: var(--oddRowsColor);
+    background-color: var(--oddRowsBGColor);
+    }
+    
+    thead {
+    text-align: var(--headerTextAlign);
+    text-transform: uppercase;
+    font-size: var(--headerFontSize);
+    font-weight: var(--headerFontWeight);
+    letter-spacing: .002em;
+    color: var(--headerFontColor) !important;
+    background-color: var(--headerFontBGColor);
+    border: var(--headerBCVar) solid var(--headerBorderColor);
+    font-family: system-ui;
+    }
+    
+    
+    table tr {
+    
+border : var(--rowsBorderColor) var(--rowsBorderWidth)
+
+
+    }
+
+    @media (max-width: 650px) {
+    table {
+        max-width: 80%;
+    }
+    
+    th {
+        display: none;
+    }
+    
+    td {
+        display: block;
+    }
+}
+            
