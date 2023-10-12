@@ -50,3 +50,8 @@ export const delet = () => {
         });
     });
 };
+
+
+export const PUT=async()=>{
+    
+}
