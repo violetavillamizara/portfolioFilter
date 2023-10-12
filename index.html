@@ -7,8 +7,6 @@
 	<link rel="stylesheet" href="./css/style.css">
 	<link rel="stylesheet" href="./css/form.css">
 	<link rel="stylesheet" href="./css/table.css">
-	<link rel="stylesheet" href="./css/css.css">
-	<link rel="stylesheet" href="./css/formulario.css">
 	<script src="./js/main.js" async></script>
 	<script src="./js/app.js" defer type="module"></script>
 	<title>portfolio</title>
@@ -41,68 +39,65 @@
 			<div class="data">
 				<div class="content-data">
 					<div class="form-container">
-						<p class="title">Login</p>
+						<p class="title">Presentation</p>
 						<form class="form">
 							<div class="input-group">
-								<label for="username">Username</label>
-								<input type="text" name="username" id="username" placeholder="">
+								<label for="">First Name</label>
+								<input type="text" name="nombre" id="nombre" placeholder="Nombre">
 							</div>
 							<div class="input-group">
-								<label for="password">Password</label>
-								<input type="password" name="password" id="password" placeholder="">
-								<div class="forgot">
-									<a rel="noopener noreferrer" href="#">Forgot Password ?</a>
-								</div>
+								<label for="">Last Name</label>
+								<input type="text" name="apellido" id="apellido" placeholder="Apellido">
 							</div>
-							<button class="sign">Sign in</button>
+							<div class="input-group">
+								<label for="">Desarrollador</label>
+									<select id="select">
+									  <option value="opt1">Frontend</option>
+									  <option value="opt2">Backend</option>
+									  <option value="opt3">Fullstack</option>
+									</select>
+							</div>
+							<div class="input-group">
+								<label for="social">Social Media</label>
+								<input type="text" name="social" id="social" placeholder="GitHub Profile">
+							</div>
+							<div class="input-group">
+								<label for="foto">Profile Photo</label>
+								<input type="url" name="foto" id="foto" placeholder="Photo URL">
+							</div>
+							<div class="input-group">
+								<label for="textarea">About you</label>
+								<textarea type="textarea" id="textarea" placeholder="Sobre Ti"></textarea>
+							</div>
+							<div class="input-group">
+								<label for="date">Fecha de Nacimiento</label>
+								<input type="date" name="date" id="date">
+							</div>
+							<div class="input-group">
+								<label for="email">Email</label>
+								<input type="email" name="email" id="email" placeholder="Correo">
+							</div>
+							<div class="input-group">
+								<label for="number">Number</label>
+								<input type="number" name="number" id="number" placeholder="Cellphone Number">
+							</div>
+							<div class="input-group">
+								<label for="ad">Adress</label>
+								<input type="text" name="ad" id="ad" placeholder="Dirección">
+							</div>
+							<div class="input-group">
+								<label for="exp">Experience</label>
+								<textarea type="textarea" id="exp" placeholder="Experiencia"></textarea>
+							</div>
+							<div class="input-group">
+								<label for="">Skills and Languages</label>
+								<input type="" name="skills" id="skills">
+							</div>
+
+							<button class="submit">Submit</button>
 						</form>
-						<div class="social-message">
-							<div class="line"></div>
-							<p class="message">Login with social accounts</p>
-							<div class="line"></div>
-						</div>
 					</div>
-					<form>
-					<fieldset>
-					  <legend>Form Title</legend> 
-					  <!--Text -->
-					  <div>
-						<label for="text">Text</label>
-						<input type="text" id="text">
-					  </div>
-					  <!-- Email -->
-					  <div>
-						<label for="email">email</label>
-						<input type="email" id="email">
-					  </div>
-					  <!-- Number -->
-					  <div>
-						<label for="number">number</label>
-						<input type="number" id="number">
-					  </div>
-					  <!-- Password -->
-					  <div>
-						<label for="password">password</label>
-						<input type="password" id="password">
-					  </div>
-					  <!-- TextArea -->
-					  <div>
-						<label for="textarea">textarea</label>
-						<textarea type="textarea" id="textarea"></textarea>
-					  </div>
-					  <!-- Select -->
-					  <div>
-						<label for="select">select</label>
-						<select id="select">
-						  <option value="opt1">opt1</option>
-						  <option value="opt2">opt2</option>
-						  <option value="opt3">opt3</option>
-						</select>
-					  </div>
-					  <!-- Button -->
-					  <button>Submit</button>
-					</fieldset>
-				  </form>
+						
 					<div class="head">
 						<h3>portfolios control</h3>
 					</div>
