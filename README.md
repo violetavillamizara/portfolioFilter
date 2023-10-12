@@ -2,15 +2,15 @@
 
 > Este proyecto es un ejemplo de una página web de portafolio personal.
 
-![img](img.png)
-![img](i.png)
+![img](./imgs/img.png)
+![img](./imgs/i.png)
 
 ## Instrucciones
 
  Acceder a la API falsa
 
 JSON Server creará una API REST falsa basada en tu archivo JSON. Puedes acceder a la API en tu navegador o mediante peticiones HTTP a  http://127.0.0.1:5500/index.html Por ejemplo, puedes visitar http://localhost:5020/portafolio para obtener los registros.
-![db](DB.png)
+![db](./imgs/DB.png)
 
 ### Requisitos previos
 - instalación de Node.js
@@ -82,17 +82,29 @@ json-server --watch db.json
 
 # Insomnia
 > Para testear el api
-![img](insomnia.png)
+
+![img](./imgs/insomnia.png)
 
 GET ALL
-![img](GETALL.png)
+
+![img](./imgs/GETALL.png)
+
 GET ONE
-![img](GETONE.png)
+
+![img](./imgs/GETONE.png)
+
 POST
-![img](POST.png)
+
+![img](./imgs/POST.png)
+
 PUT
+
 ![img]()
+
 DELETE
-![img](delete.png)
+
+![img](./imgs/delete.png)
+
 > Se verifica que se elimino id 7
-![img](7.png)
+
+![img](./imgs/7.png)
