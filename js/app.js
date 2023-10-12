@@ -1,9 +1,6 @@
-import { getAll, getOne, post, deleteOne, delet } from "../storage/portafolio"
+import { getAll, getOne, post, deleteOne, delet } from "../storage/portafolio.js"
 
 const button = document.querySelector("button");
-
-let res = await getAll();
-console.log(res);
 
 button.addEventListener("submit", async (e) => {
     const showTable = (data) => {
@@ -61,17 +58,18 @@ addEventListener("DOMContentLoaded", async (e) => {
 document.addEventListener("DOMContentLoaded", function () {
     const formulario = document.querySelector("form");
 
-    formulario.addEventListener("submit", function (e) {
+    formulario.addEventListener("submit", async function (e) {
         e.preventDefault();
 
-        const formData = new FormData(formulario);
+        const formData = Object.fromEntries( new FormData(formulario));
+        console.log(formData);
+        // const formDataObject = {};
+        // formData.forEach((value, key) => {
+        //     formDataObject[key] = value;
+        // });
 
-        const formDataObject = {};
-        formData.forEach((value, key) => {
-            formDataObject[key] = value;
-        });
-
-        post(formData);
+        let res = await post({obj: formData});
+        console.log(res);
         formulario.reset();
     });
 });

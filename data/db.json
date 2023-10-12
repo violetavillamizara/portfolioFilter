@@ -14,6 +14,20 @@
       "direccion": "",
       "experiencia": "",
       "skills": ""
+    },
+    {
+      "nombre": "",
+      "apellido": "",
+      "social": "",
+      "foto": "",
+      "about": "",
+      "date": "",
+      "email": "",
+      "number": "",
+      "ad": "",
+      "exp": "",
+      "skills": "",
+      "id": 2
     }
   ]
 }

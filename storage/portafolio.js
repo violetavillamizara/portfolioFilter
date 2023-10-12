@@ -20,7 +20,6 @@ export const getOne = async (id) => {
 export const post = async ({ obj = {} } = {}) => {
     config.method = "POST";
     config.body = JSON.stringify(obj);
-
     let res = await (await fetch(`${uri}/portafolio`, config)).json();
     return (res.id) ? { status: 201, message: "El CV fue creado correctamente", id: res.id } : undefined;
 }
